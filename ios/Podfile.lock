@@ -375,6 +375,10 @@ PODS:
   - React-jsinspector (0.72.15)
   - React-logger (0.72.15):
     - glog
+  - react-native-config (1.5.3):
+    - react-native-config/App (= 1.5.3)
+  - react-native-config/App (1.5.3):
+    - React-Core
   - React-NativeModulesApple (0.72.15):
     - hermes-engine
     - React-callinvoker
@@ -485,6 +489,8 @@ PODS:
     - React-jsi (= 0.72.15)
     - React-logger (= 0.72.15)
     - React-perflogger (= 0.72.15)
+  - RNSVG (15.9.0):
+    - React-Core
   - SocketRocket (0.6.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -536,6 +542,7 @@ DEPENDENCIES:
   - React-jsiexecutor (from `../node_modules/react-native/ReactCommon/jsiexecutor`)
   - React-jsinspector (from `../node_modules/react-native/ReactCommon/jsinspector`)
   - React-logger (from `../node_modules/react-native/ReactCommon/logger`)
+  - react-native-config (from `../node_modules/react-native-config`)
   - React-NativeModulesApple (from `../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios`)
   - React-perflogger (from `../node_modules/react-native/ReactCommon/reactperflogger`)
   - React-RCTActionSheet (from `../node_modules/react-native/Libraries/ActionSheetIOS`)
@@ -553,6 +560,7 @@ DEPENDENCIES:
   - React-runtimescheduler (from `../node_modules/react-native/ReactCommon/react/renderer/runtimescheduler`)
   - React-utils (from `../node_modules/react-native/ReactCommon/react/utils`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
+  - RNSVG (from `../node_modules/react-native-svg`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -615,6 +623,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/jsinspector"
   React-logger:
     :path: "../node_modules/react-native/ReactCommon/logger"
+  react-native-config:
+    :path: "../node_modules/react-native-config"
   React-NativeModulesApple:
     :path: "../node_modules/react-native/ReactCommon/react/nativemodule/core/platform/ios"
   React-perflogger:
@@ -649,6 +659,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon/react/utils"
   ReactCommon:
     :path: "../node_modules/react-native/ReactCommon"
+  RNSVG:
+    :path: "../node_modules/react-native-svg"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -686,6 +698,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: d3eef5ddc78eeb9f0d02bed657a7f41d4910b966
   React-jsinspector: b86a8abae760c28d69366bbc1d991561e51341ed
   React-logger: ed7c9e01e58529065e7da6bf8318baf15024283e
+  react-native-config: 8f7283449bbb048902f4e764affbbf24504454af
   React-NativeModulesApple: ee36a33f5ad8d80487c43e6b4370ea2eaaa81750
   React-perflogger: 6acc671f527e69c0cd93b8e62821d33d3ddf25ca
   React-RCTActionSheet: 569bb9db46d85565d14697e15ecf2166e035eb07
@@ -703,10 +716,11 @@ SPEC CHECKSUMS:
   React-runtimescheduler: ae08ede2e0267be2a4d8ba82a54d5908949d5a34
   React-utils: 8eb3c12fd4a4da6df3824f7d9a961d73a6ed6e5d
   ReactCommon: d2de36ed3eebe700d7169b9e80f7d1a4b98e178d
+  RNSVG: 3d2bdcaef51c8071880a9c0072fe324f4423a3ba
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   Yoga: 6f5ab94cd8b1ecd04b6e973d0bc583ede2a598cc
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: b650d6162005c192a7f7eedc08d3a055caff020a
 
-COCOAPODS: 1.14.3
+COCOAPODS: 1.15.2
